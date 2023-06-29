@@ -21,7 +21,7 @@ function App() {
     };
   }, []);
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ToastContainer
         position="top-center"
         autoClose={4000}
@@ -42,7 +42,7 @@ function App() {
         <Route path="/game" element={<Game />} />
         <Route path="/gameover" element={<GameOver />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
