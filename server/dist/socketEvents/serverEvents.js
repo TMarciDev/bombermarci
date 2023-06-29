@@ -1,0 +1,27 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ServerEvents = void 0;
+var ServerEvents;
+(function (ServerEvents) {
+    ServerEvents["gamePrepInfo"] = "gamePrepInfo";
+    ServerEvents["changeStage"] = "changeStage";
+    ServerEvents["addJoinedPlayer"] = "addJoinedPlayer";
+    ServerEvents["removeLeftPlayer"] = "removeLeftPlayer";
+    ServerEvents["availableColors"] = "availAbleColors";
+    ServerEvents["updateJoinedPlayers"] = "updateJoinedPlayers";
+    ServerEvents["gameStartInfo"] = "gameStartInfo";
+    ServerEvents["allPlayerStats"] = "allPlayerStats";
+    ServerEvents["allPlayersPos"] = "allPlayersPos";
+    ServerEvents["allSoftWalls"] = "allSoftWalls";
+    ServerEvents["removeSoftWalls"] = "removeSoftWalls";
+    ServerEvents["allBombs"] = "allBombs";
+    ServerEvents["addBombs"] = "addBombs";
+    ServerEvents["removeBombs"] = "removeBombs";
+    ServerEvents["addExplosionFields"] = "addExplosionFields";
+    ServerEvents["allPowerUps"] = "allPowerUps";
+    ServerEvents["addPowerUps"] = "addPowerUps";
+    ServerEvents["removePowerUps"] = "removePowerUps";
+    ServerEvents["gameOver"] = "gameOver";
+    ServerEvents["sendError"] = "sendError";
+    ServerEvents["sendInfo"] = "sendInfo";
+})(ServerEvents = exports.ServerEvents || (exports.ServerEvents = {}));
