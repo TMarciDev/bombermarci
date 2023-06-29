@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import ErrorDisplay from "./features/ErrorDisplay";
 import Menu from "./features/menu/Menu";
@@ -21,7 +21,7 @@ function App() {
     };
   }, []);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ToastContainer
         position="top-center"
         autoClose={4000}
@@ -42,7 +42,7 @@ function App() {
         <Route path="/game" element={<Game />} />
         <Route path="/gameover" element={<GameOver />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
