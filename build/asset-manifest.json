@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bombermarci/static/css/main.c555bedf.css",
-    "main.js": "/bombermarci/static/js/main.d210ba99.js",
+    "main.js": "/bombermarci/static/js/main.530d1bb9.js",
     "static/js/787.375a9490.chunk.js": "/bombermarci/static/js/787.375a9490.chunk.js",
     "index.html": "/bombermarci/index.html",
     "main.c555bedf.css.map": "/bombermarci/static/css/main.c555bedf.css.map",
-    "main.d210ba99.js.map": "/bombermarci/static/js/main.d210ba99.js.map",
+    "main.530d1bb9.js.map": "/bombermarci/static/js/main.530d1bb9.js.map",
     "787.375a9490.chunk.js.map": "/bombermarci/static/js/787.375a9490.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c555bedf.css",
-    "static/js/main.d210ba99.js"
+    "static/js/main.530d1bb9.js"
   ]
 }

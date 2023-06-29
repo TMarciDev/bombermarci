@@ -1,7 +1,7 @@
 {
   "name": "bomber-client",
   "version": "3.8.1",
-  "homepage": "https://tmarcidev.github.io/bombermarci/",
+  "homepage": "http://tmarcidev.github.io/bombermarci/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
