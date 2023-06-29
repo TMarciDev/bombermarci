@@ -27,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "concurrently \"npm run start\" \"npx typed-scss-modules src -w\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -56,6 +58,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.191",
     "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0",
     "prettier": "2.8.4",
     "sass": "^1.58.3",
     "typed-scss-modules": "^7.1.0"
