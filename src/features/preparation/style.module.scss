@@ -1,0 +1,49 @@
+@import "../../styles/global.scss";
+
+.heroSelector {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 50vh;
+  height: 50vh;
+  @include portrait() {
+    width: 100vw;
+    height: 100vw;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+}
+button {
+  margin: 5px;
+}
+
+.outterContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomName {
+  color: $error;
+}
+
+.selectRoom {
+  margin: 4px;
+}
+
+.playerName {
+  font-size: 110%;
+}
+
+a {
+  font-size: 150%;
+}

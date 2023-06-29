@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 900;
+}
+
+.statContainer {
+  white-space: nowrap;
+  margin: 4px;
+  padding: 4px;
+  background-color: rgba(96, 75, 238, 0.8);
+}
+
+.dead {
+  filter: brightness(15%);
+  background-color: none;
+}

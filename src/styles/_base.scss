@@ -1,0 +1,47 @@
+html {
+  touch-action: pan-x pan-y !important;
+  user-select: none;
+  zoom: reset !important;
+}
+* {
+  -webkit-tap-highlight-color: transparent; /* for Safari */
+  -webkit-touch-callout: none; /* prevent long press on link */
+  user-select: none; /* disable text selection */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(47, 47, 47);
+  color: white;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  //white-space: nowrap;
+  font-size: 150% !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: white;
+  font-size: 200%;
+  margin: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.draw {
+  font-size: 150%;
+}
+
+.name {
+  font-size: 130%;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
